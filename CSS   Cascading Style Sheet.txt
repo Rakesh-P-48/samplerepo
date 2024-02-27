@@ -1,0 +1,304 @@
+CSS :  Cascading Style Sheet
+
+Hakon Wium Lee - 1994 
+
+CSS 3 : 2000s- 2018
+
+Types of stylesheets : 
+
+Internal Stylesheet
+External Stylesheet
+Inline Stylesheet
+
+Inline : style attribute 
+
+<h1 style="color:red;background-color:grey;">Hello world</h1>
+
+attributes syntax: 
+HTML : key="value"
+CSS : key:value;
+
+Internal stylesheet: head > style > { }
+
+
+
+CSS Selectors : 
+
+keyword to apply a block of css code to HTML element
+
+types of  selectors : 
+
+Tag Name Selector: we can apply css block to html element byusing its tag name
+Class Name Selector
+Id Name Selector
+Universal Selector
+Combination Selector
+Pseudo selectors
+
+Backround  or text formatting
+
+to set the background color of webpage or block in webpage : background-color : 
+
+to set background image for webpage =>background-image : url('');
+
+to manage repetition of background image => background-repeat: no-repeat/repeat/repeat-x/repeat-y
+
+to increase/decrease size of the background image=>background-size:1200px/1000px...../cover
+
+to set the position of image in background=> background-position :top right/top left/bottom right/bottom-left/center
+
+to fix or scroll the background image=>background-attachment : fixed/scroll
+
+
+Text Formatting:
+
+				to change color of the text => color:red;
+				to change style of the text => font-family:chiller;
+				to change size of the text => font-size:20px;
+				to change weight of the text => font-weight:900;
+				to add/remove line to the text => text-decoration: underline/overline/line-through/none
+				to change format of the text => text-transform: uppercase/lowercase/capitalize
+				to increase/decrease the space between words => word-spacing:20px;
+				to increase/decrease the space between letters of word=> letter-spacing:20px;
+				to increase/decrease the height between lines of paragraph=>line-height:20px;
+				to add shadow to the text=> text-shadow:2px 2px black;
+				to change alignment of the text=> text-align:center;
+				to change text to italic text => font-style:italic;
+				to add space before starting a paragraph => text-indent:20px;
+
+CSS Colors :
+
+	colors can represent in 4 ways 
+			- color name
+			- HEXA code
+			- RGB values
+			- HSL values 	
+	
+		HEXA code : 
+
+				0-9 & a-f
+		
+				#rrggbb
+				#ff0000
+
+	RGB VALUES : rgb(255,0,0) -> 0 to 255
+
+		rgba(255,0,0,0.5)
+
+	HSL : hsl(0-360,0-100%,0-100%) -> hsl(121,50%,60%)
+
+
+
+
+
+Box Model
+
+margin  : 
+
+	margin-left
+	margin-bottom
+	margin-right
+	margin-top
+
+	margin-left:20px;
+
+padding : the space between border and content, internal space of any element
+	padding-left/padding-top/padding-right/padding-bottom 
+	or 
+	shorthand prop: padding:50px;
+
+border : 
+
+	border-width:2px;
+	border-style: solid/dashed/dotted/double/inset/outset
+	border-color:red;
+	
+		or 
+
+	shorthand prop : border:2px solid blue;
+
+	border-collapse:collapse//to remove extra lines in border of a table
+	border-radius:px
+
+
+	background-image:linear-gradient(red,blue,green,yellow)
+	radial-gradient
+
+
+outline: 
+
+Navbar
+Icons in navbar
+fonts
+Simple Animations
+
+
+Display
+Pseudo classes
+Positions
+Float,Overflow
+FlexBox
+Filters
+Transforms and Transitions
+Animations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pseudo classes and elements : 
+
+pseudo classes are used add styles for special state of an element
+
+
+-> anchor tag has most no of states 
+
+	a - link (unvisited state of hyperlink)
+	a - hover (hovering with mouse on hyperlink)
+	a - visited (hyperlink already visited)
+	a - active (hyperlink clicked)
+	input - focus (while selecting input tag)
+	nth-child (to select child elements with specific condition)
+
+-> pseudo class is identified by : (colon)
+
+Pseudo elements 
+
+used to add styles for special part of an element
+
+-> pseudo element is identified by :: (double colon)
+->	first-line
+	first-letter
+	before
+	after
+	selection
+-> 
+
+animate.style 
+
+copy the link from documentation
+go repeating class names and copy the class name
+set no of iterations as you want
+select the proper style of animation
+
+
+
+
+Display property :
+
+display:inline/block/none
+
+hint : iframe + 
+
+Dropdowns : 
+
+pseudo classes
+display
+
+CSS Positions : static/absolute/fixed/relative/sticky
+
+static: static is default positioning method of every html element
+-> it doesnt effected by the values of top,left,bottom,right for spacing and alignment
+
+absolute : it applies the values of top,left,bottom,right based on ansector element(nearest previous element)
+
+relative : it applies the values of top,left,bottom,right based on its normal position
+
+fixed: it applies the values of top,left,bottom,right and it is fixed at that position
+
+sticky : relative + fixed
+
+z-index:to set the priority 
+syntax: z-index:1;
+
+
+Flexbox
+Filters
+Transform and Transition
+Animations
+
+Midjourney??
+
+midjourney ai muse
+
+LLM  	
+
+Animations :
+
+
+syntax :
+
+	@keyframes anime{
+		//animation code
+	
+	}
+
+
+	h1{
+		animation-name:anime;
+		animation-duration:3s;
+	}
+
+Transforms  : used to apply 2D methods for an element like translate,scale,rotate,skew 
+
+transform: translate()/scale/rotate/skew
+
+translate() -> used to change the position of the element using coordinates (x,y)
+
+scale() -> used to increase/decrease the height and width of elements 
+
+Transitions : to apply smooth changes to element
+
+Github 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
